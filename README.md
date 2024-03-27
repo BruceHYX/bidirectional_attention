@@ -12,7 +12,7 @@ Attention mechanism, as a popular model architecture in deep learning, has a dis
 
 We evaluate the effectiveness of proposed architecture, TanhMax, on synthetic data, four real text datasets and two images classification datasets. The detailed experimental setting and numerical results can be found in the paper. 
 
-Below are scatter plots to visualization Softmax (left) and TanhMax (right) coefficients.
+Below are scatter plots to visualization Softmax and TanhMax coefficients.
 
 <center class="half">
 <img src="bidirectional_attention/Synthetic/graph/scatterplot/softmax(synthetic).png" width=200/>
