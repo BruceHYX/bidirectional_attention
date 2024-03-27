@@ -12,10 +12,13 @@ We evaluate the effectiveness of proposed architecture, TanhMax, on synthetic da
 
 Visualization of Softmax and TanhMax coefficients
 
-![image-20240327210836818](/Users/macbook13/Library/Application Support/typora-user-images/image-20240327210836818.png)
+<figure>
+<img src="bidirectional_attention/Synthetic/graph/scatterplot/softmax(synthetic).png" width=200/>
+<img src="bidirectional_attention/Synthetic/graph/scatterplot/tanhmax(synthetic).png" width=200/>
+</figure>
 
 #### Reference
 
-We use ViT model as described by paper *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale* as our backbone on images classification tasks.
+We use ViT model as described by paper *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale* [link](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision_transformer.py) as our backbone on images classification tasks.
 
 We use code in the paper *Attention is not all you need: pure attention loses rank doubly exponentially with depth* [link](https://github.com/twistedcubic/attention-rank-collapse) to examine the representational power of proposed method.
