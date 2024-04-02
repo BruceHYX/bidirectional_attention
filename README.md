@@ -22,6 +22,6 @@ Below are scatter plots to visualization Softmax and TanhMax coefficients.
 
 #### Reference
 
-We use ViT model as described by paper *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale* [link](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision_transformer.py) as our backbone on images classification tasks.
+We use ViT model as described by paper *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale* [link](https://github.com/jacobgil/vit-explain) as our backbone on images classification tasks.
 
 We use code in the paper *Attention is not all you need: pure attention loses rank doubly exponentially with depth* [link](https://github.com/twistedcubic/attention-rank-collapse) to examine the representational power of proposed method.
